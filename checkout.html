@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title>CheckOut</title></head>
+<body>
+  <!-- header -->
+  <main class="main">
+    <div style="display:grid; grid-template-columns:2fr 1fr; gap:2rem;">
+      <div>
+        <h2>Billing Details</h2>
+        <form>
+          <input placeholder="First Name*"><br>
+          <input placeholder="Company Name"><br>
+          <input placeholder="Street Address*"><br>
+          <input placeholder="Apartment, floor, etc."><br>
+          <input placeholder="Town/City*"><br>
+          <input placeholder="Phone Number*"><br>
+          <input placeholder="Email Address*"><br>
+          <label><input type="checkbox"> Save this information</label>
+        </form>
+      </div>
+      <div>
+        <h3>Your Order</h3>
+        <p>LCD Monitor #6500</p><p>HI Gamepad #11000</p>
+        <hr><p>Subtotal: #17500</p><p>Shipping: Free</p><p>Total: #17500</p>
+        <div>Payment: <label><input type="radio" name="payment"> Bank</label> <label><input type="radio" name="payment"> VISA</label> <label><input type="radio" name="payment"> Cash on delivery</label></div>
+        <div>Coupon Code <input placeholder="Coupon Code"><button>Apply</button></div>
+        <button class="btn btn-primary">Place Order</button>
+      </div>
+    </div>
+  </main>
+  <footer>...</footer>
+</body>
+</html>
